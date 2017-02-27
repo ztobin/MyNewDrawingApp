@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Options">
+        <menu>
+            <group  >
+                <item
+                    android:id="@+id/nav_clear"
+                    android:icon="@drawable/ic_white_box"
+                    android:title="Clear" />
+                <item
+                    android:id="@+id/nav_manage"
+                    android:icon="@drawable/ic_red_box"
+                    android:title="Tools" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Color">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/blackBox"
+                    android:icon="@drawable/ic_black_box"
+                    android:title="Black" />
+                <item
+                    android:id="@+id/redBox"
+                    android:icon="@drawable/ic_red_box"
+                    android:title="RED" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
